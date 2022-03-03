@@ -11,7 +11,7 @@ phases:
   build:
     commands:
      # - serverless deploy --stage ${STAGE_NAME} 
-      - serverless deploy --env ${STAGE_NAME}
+      - serverless deploy 
 
 cache:
   paths:
