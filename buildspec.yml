@@ -10,8 +10,8 @@ phases:
       - npm install
   build:
     commands:
-     # - serverless deploy --stage ${STAGE_NAME} 
-      - serverless deploy 
+      - serverless deploy --stage ${STAGE_NAME} 
+     # - serverless deploy 
 
 cache:
   paths:
